@@ -86,10 +86,34 @@ body {
 }
 
 .service-wrapper .service-title h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 39px;
-  color: #000000;
+  color: #393636;
   text-align: center;
+  text-transform: capitalize;
+}
+
+.service-wrapper .box-area {
+  padding: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+  border: 2px solid #ddd;
+  background-color: white;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-wrapper .box-area .box-title h4 {
+  padding: 40px 0;
+}
+
+.service-wrapper .box-area:hover {
+  border-top: 6px solid #fb527a;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding-top: 45px;
 }
 
 /*****************
