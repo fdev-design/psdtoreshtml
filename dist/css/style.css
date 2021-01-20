@@ -119,4 +119,20 @@ body {
 /*****************
 Service Area Ends
 ******************/
+/*****************
+Video Section Starts 
+******************/
+.watch-video-wrapper .play-video {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.534)), to(rgba(0, 0, 0, 0.459))), url(../../img/image-1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.459)), url(../../img/image-1.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+/*****************
+Video Section Ends
+******************/
 /*# sourceMappingURL=style.css.map */
