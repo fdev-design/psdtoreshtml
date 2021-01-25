@@ -53,6 +53,7 @@ body {
         }
 
         .buttons {
+            display: flex;
             .btn {
                 padding: 18px 40px;
                 margin-bottom: 20px;
@@ -138,6 +139,8 @@ Video Section Starts
         font-size: 28px;
         font-weight: bold;
     }
+   
+
 
     .play-video {
         background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.856)), url(../../img/image-1.png);
@@ -157,12 +160,32 @@ Video Section Starts
             position: absolute;
             top: 35%;
             left: 45%;
+            // padding:155px 0;
             justify-content: center;
             //   padding: 180px 0;
             overflow: hidden;
         }
+        #videolink{
+            cursor: pointer;
+        }
+        #videolink:focus+ #videostory{
+            display: block;
+        }
 
     }
+    #videostory{
+        overflow:visible;
+        position: relative;
+        display: none;
+        
+        iframe{
+            position: absolute;
+            top:39px;
+            right: 19%;
+
+        }
+}
+
 }
 
 /*****************
@@ -232,7 +255,9 @@ Work Target starts
          
         }
     }
-
+    .clearfix{
+        overflow: hidden;
+    }
 
 }
 

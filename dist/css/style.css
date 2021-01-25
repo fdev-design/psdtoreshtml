@@ -57,6 +57,12 @@ body {
      border-image: 4px;
 }
 
+.mobile-app-banner .mobile-app-banner-content .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .mobile-app-banner .mobile-app-banner-content .buttons .btn {
   padding: 18px 40px;
   margin-bottom: 20px;
@@ -163,6 +169,26 @@ Video Section Starts
   overflow: hidden;
 }
 
+.watch-video-wrapper .play-video #videolink {
+  cursor: pointer;
+}
+
+.watch-video-wrapper .play-video #videolink:focus + #videostory {
+  display: block;
+}
+
+.watch-video-wrapper #videostory {
+  overflow: visible;
+  position: relative;
+  display: none;
+}
+
+.watch-video-wrapper #videostory iframe {
+  position: absolute;
+  top: 39px;
+  right: 19%;
+}
+
 /*****************
 Video Section Ends
 ******************/
@@ -234,6 +260,10 @@ Work Target starts
 .work-target-wrapper .work-area:hover .line {
   background-color: #ffffff;
   margin: 12px 0 16px;
+}
+
+.work-target-wrapper .clearfix {
+  overflow: hidden;
 }
 
 /*****************
